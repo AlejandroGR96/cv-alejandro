@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="CV interactivo y portafolio profesional.">
+  <title>Mi CV | Portafolio Interactivo</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <div class="progress-bar" id="progressBar"></div>
+  <div class="cursor-glow" id="cursorGlow"></div>
+
+  <header class="navbar">
+    <a class="brand" href="#inicio"><span class="brand-dot"></span>INCIO<span class="brand-accent"> .</span></a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Abrir menú">☰</button>
+    <nav id="mainNav">
+      <a href="#sobre-mi">Sobre mí</a>
+      <a href="#experiencia">Experiencia</a>
+      <a href="#habilidades">Habilidades</a>
+      <a href="#proyectos">Proyectos</a>
+      <a href="#formacion">Formación</a>
+      <a href="#contacto">Contacto</a>
+      <button class="theme-toggle" id="themeToggle" aria-label="Cambiar tema">☼</button>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section" id="inicio">
+      <div class="hero-copy reveal">
+        <p class="eyebrow"><span></span> CURRÍCULUM VITAE / PORTAFOLIO</p>
+        <h1>Hola, soy<br><span class="gradient-text">ALEJANDRO GOMEZ.</span></h1>
+        <p class="hero-role">Desarrollador web <span class="typed" id="typedText"></span></p>
+        <p class="hero-description">
+            Soy una persona comprometida, proactiva y
+            siempre con la mejor actitud para enfrentar grandes
+            retos. Estoy dispuesto a aprender constantemente
+            y adaptarme a nuevas tecnologías.
+        </p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#proyectos">Ver proyectos <span>↗</span></a>
+          <a class="btn btn-ghost" href="#contacto">Contactarme</a>
+        </div>
+        <div class="quick-stats">
+          <div><strong>+03</strong><span>Años aprendiendo</span></div>
+          <div><strong>+10</strong><span>Proyectos</span></div>
+          <div><strong>100%</strong><span>Compromiso</span></div>
+        </div>
+      </div>
+
+      <div class="hero-visual reveal">
+        <div class="orbit orbit-one"></div>
+        <div class="orbit orbit-two"></div>
+        <div class="profile-card">
+          <div class="profile-image-wrap">
+            <img src="img/photo2.jpeg" alt="Foto de perfil" class="profile-image">
+          </div>
+          <span class="available"><i></i> Disponible</span>
+          <p class="profile-location">📍 Colombia</p>
+        </div>
+        <div class="floating-card card-code">
+          <span>&lt;/&gt;</span><small>CODE</small>
+        </div>
+        <div class="floating-card card-star">✦</div>
+      </div>
+    </section>
+
+    <section class="marquee" aria-label="Tecnologías">
+      <div class="marquee-track">
+        <span>HTML</span><b>✦</b><span>CSS</span><b>✦</b><span>JAVASCRIPT</span><b>✦</b><span>GIT</span><b>✦</b>
+        <span>PYTHON</span><b>✦</b><span>DJANGO</span><b>✦</b><span>C#</span><b>✦</b><span>.NET</span><b>✦</b>
+      </div>
+    </section>
+
+    <section class="section about" id="sobre-mi">
+      <div class="section-heading reveal">
+        <p class="eyebrow"><span></span> 01 / SOBRE MÍ</p>
+        <h2>Conoce mi <em>historia.</em></h2>
+      </div>
+      <div class="about-grid">
+        <class="about-text reveal">
+          <p class="lead">Soy una persona apasionada por la tecnología, el aprendizaje y la creación de soluciones digitales.</p>
+          <!-- <p>Escribe aquí una descripción más completa de tu perfil: quién eres, qué estudias o haces, cuáles son tus objetivos profesionales y qué te diferencia.</p> -->
+          <p>Estudiante continuo de desarrollo de software y otras tecnologías, soy un apasionado a los videojuegos, futbol y viajes en motocicleta</p>
+          <p>Me considero una persona proactiva, con habilidades de comunicación y trabajo en equipo, siempre buscando aprender y mejorar en cada proyecto que emprendo.</p><br>
+          <!-- <p>Este CV está pensado para que puedas mostrar tu trayectoria de una manera visual, moderna e interactiva.</p> -->
+        </div>
+        <div class="info-panel reveal">
+          <div><span>Nombre</span><strong>ALEJANDRO GOMEZ RESTREPO</strong></div>
+          <div><span>Ubicación</span><strong>Colombia</strong></div>
+          <div><span>Email</span><strong>alejogomezr1996@gmail.com</strong></div>
+          <div><span>Especialidad</span><strong>Desarrollador de Software</strong></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section timeline-section" id="experiencia">
+      <div class="section-heading reveal">
+        <p class="eyebrow"><span></span> 02 / TRAYECTORIA</p>
+        <h2>Mi camino <em>profesional.</em></h2>
+      </div>
+      <div class="timeline">
+        <article class="timeline-item reveal">
+          <span class="timeline-year">2026 — ACTUAL</span>  
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <h3>Estudiante</h3>
+            <h4>RIWI</h4>
+            <p>Estudiante de programación y desarrollo de software.</p>
+          </div>
+        </article>
+        <article class="timeline-item reveal">
+          <span class="timeline-year">2018 - 2024</span>
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <h3>Freelance</h3>
+            <h4>Independiente</h4>
+            <p>Realicé trabajos como freelance en algunas areas como soporte a sistemas o a paginas web.</p>
+            <p>Instalacion de SO (Sistemas operativos) y softwares(offices, entre otros)</p><br>
+            <h3>Practicas Empresariales</h3>
+            <h4>Maaji Colombia</h4>
+            <p>Realicé prácticas en el área de desarrollo de software, donde adquirí experiencia en programación y resolución de problemas.</p><br>
+            <h3>Auxiliar de Desarrollo</h3>
+            <h4>Delisea Gourmet</h4>
+            <p>Desempeño labores de manejo decomunicación con área de ventas y contabilidad,</p>
+            <p>Coordinación logística, mantenimientode sistemas y proveedores de desarrollo</p>
+          </div>
+        </article>
+        <article class="timeline-item reveal">
+          <span class="timeline-year">2016</span>
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <h3>Bachiller Academico</h3>
+            <h4>Institución educativa Juan Sebastian de Censa</h4>
+            <p>Graduado en el año 2016.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section skills" id="habilidades">
+      <div class="section-heading reveal">
+        <p class="eyebrow"><span></span> 03 / HABILIDADES</p>
+        <h2>Lo que sé <em>hacer.</em></h2>
+      </div>
+      <div class="skills-grid">
+        <div class="skill-card reveal"><div class="skill-icon">&lt;/&gt;</div><h3>HTML</h3><p>Estructura semántica y accesible.</p><div class="meter"><span style="--level: 50%"></span></div><b>50%</b></div>
+        <div class="skill-card reveal"><div class="skill-icon">✦</div><h3>CSS</h3><p>Diseño responsive y animaciones.</p><div class="meter"><span style="--level: 88%"></span></div><b>88%</b></div>
+        <div class="skill-card reveal"><div class="skill-icon">{ }</div><h3>JavaScript</h3><p>Interactividad y lógica web.</p><div class="meter"><span style="--level: 80%"></span></div><b>80%</b></div>
+        <div class="skill-card reveal"><div class="skill-icon">⌘</div><h3>Git / GitHub</h3><p>Control de versiones y despliegue.</p><div class="meter"><span style="--level: 78%"></span></div><b>78%</b></div>
+      </div>
+    </section>
+
+    <section class="section projects" id="proyectos">
+      <div class="section-heading reveal">
+        <p class="eyebrow"><span></span> 04 / PORTAFOLIO</p>
+        <h2>Proyectos que <em>he creado.</em></h2>
+      </div>
+      <div class="project-filters reveal">
+        <button class="filter active" data-filter="all">Todos</button>
+        <button class="filter" data-filter="web">Web</button>
+        <button class="filter" data-filter="js">JavaScript</button>
+        <button class="filter" data-filter="otros">Otros</button>
+      </div>
+      <div class="projects-grid">
+        <article class="project-card reveal" data-category="web">
+          <div class="project-number">01</div><div class="project-art art-one">WEB</div>
+          <div class="project-body"><span>WEB DESIGN</span><h3>Proyecto principal</h3><p>Descripción breve del proyecto y lo que aprendiste.</p><a href="#" class="project-link">Ver proyecto ↗</a></div>
+        </article>
+        <article class="project-card reveal" data-category="js">
+          <div class="project-number">02</div><div class="project-art art-two">{ JS }</div>
+          <div class="project-body"><span>JAVASCRIPT</span><h3>Aplicación interactiva</h3><p>Descripción breve del proyecto y sus funcionalidades.</p><a href="#" class="project-link">Ver proyecto ↗</a></div>
+        </article>
+        <article class="project-card reveal" data-category="otros">
+          <div class="project-number">03</div><div class="project-art art-three">✦</div>
+          <div class="project-body"><span>PROYECTO</span><h3>Proyecto destacado</h3><p>Descripción breve del proyecto y tu aporte.</p><a href="#" class="project-link">Ver proyecto ↗</a></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section education" id="formacion">
+      <div class="section-heading reveal">
+        <p class="eyebrow"><span></span> 05 / FORMACIÓN</p>
+        <h2>Educación & <em>certificaciones.</em></h2>
+      </div>
+      <div class="education-list">
+        <div class="education-item reveal"><span>2024</span><div><h3>Técnico en Analisis y Desarrollo de Software</h3><p>Censa </p></div><strong>01</strong></div>
+        <div class="education-item reveal"><span>2023</span><div><h3>Curso de lenguage C#</h3><p>Info - Lenguage Center</p></div><strong>02</strong></div>
+        <div class="education-item reveal"><span>2022</span><div><h3>Desarrollo de Videojuegos Nivel 1</h3><p>UBICUA</p></div><strong>02</strong></div>
+        <!-- <div class="education-item reveal"><span>2025</span><div><h3>Certificación adicional</h3><p>Entidad certificadora</p></div><strong>03</strong></div> -->
+      </div>
+    </section>
+
+    <section class="section contact" id="contacto">
+      <div class="contact-box reveal">
+        <p class="eyebrow"><span></span> 06 / CONTACTO</p>
+        <h2>¿Creamos algo<br><em>increíble?</em></h2>
+        <p>Si quieres conocer más sobre mi trabajo o tienes una oportunidad, escríbeme.</p>
+        <a class="btn btn-primary big" href="mailto:alejogomezr1996@gmail.com">alejogomezr1996@gmail.com</a>
+        <div class="socials">
+          <a href="https://github.com/AlejandroGR96" aria-label="GitHub" target="_blank">GitHub</a>
+          <a href="https://www.linkedin.com/in/alejandro-gomez-restrepo-93690523a/" aria-label="LinkedIn" target="_blank">LinkedIn</a>
+          <a href="https://www.instagram.com/alejogr_96?xtok=ZXhmM2g1YzNiZmpo" aria-label="Instagram" target="_blank">Instagram</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <span>© 2026 Alejandro Gómez Restrepo</span>
+    <span>Diseñado & desarrollado con ♥</span>
+    <a href="#inicio">Volver arriba ↑</a>
+  </footer> 
+
+  <script src="js/main.js"></script>
+</body>
+</html>
